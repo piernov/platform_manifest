@@ -281,8 +281,8 @@
   <project path="android" remote="thepasto" name="platform_manifest" revision="ics" />
 
   <project path="bootable/recovery" remote="twrp" name="Team-Win-Recovery-Project" revision="master" />
-  <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" />
-  <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" />
-  <project path="development/apps/LiquidParts" remote="thepasto" name="LiquidParts" />
+  <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" revision="ics"/>
+  <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" revision="ics"/>
+  <project path="development/apps/LiquidParts" remote="thepasto" name="LiquidParts" revision="ics"/>
 
 </manifest>
