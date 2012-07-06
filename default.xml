@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote name="thepasto"
+  <remote name="thepasto"
 	   fetch="https://github.com/thepasto" />
+
+  <remote name="twrp"
+	   fetch="https://github.com/TeamWin" />
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
@@ -26,7 +29,6 @@
   <project path="bionic" name="AOKP/bionic" remote="gh" revision="ics" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
   <project path="bootable/diskinstaller" name="platform/bootable/diskinstaller" remote="aosp" revision="refs/tags/android-4.0.4_r1.2"/>
-  <project path="bootable/recovery" name="CyanogenMod/android_bootable_recovery" remote="gh" revision="ics" />
   <project path="cts" name="platform/cts" remote="aosp" revision="refs/tags/android-4.0.4_r1.2" />
   <project path="dalvik" name="AOKP/platform_dalvik" remote="gh" revision="ics" />
   <project path="development" name="AOKP/platform_development" remote="gh" revision="ics" />
@@ -282,6 +284,5 @@
   <project path="device/acer/salsa" remote="thepasto" name="android_device_acer_salsa" />
   <project path="vendor/acer/salsa" remote="thepasto" name="android_vendor_acer_salsa_proprietary" />
   <project path="development/apps/LiquidParts" remote="thepasto" name="LiquidParts" />
-  <project path="hardware/qcom/camera" remote="thepasto" name="android_hardware_qcom_camerahal" revision="refs/heads/master" />
 
 </manifest>
