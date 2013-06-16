@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+      <project name="TeamWin/Team-Win-Recovery-Project" path="bootable/recovery" revision="master" />
+      <project name="piernov/android_device_acer_salsa" path="device/acer/salsa" revision="cm10.1" />
+      <project name="piernov/liquid-chocolate" path="kernel/acer/salsa" revision="jellybean" />
+      <project name="piernov/android_vendor_acer_salsa_proprietary" path="vendor/acer/salsa" revision="jellybean" />
+      <project name="piernov/LiquidParts" path="development/apps/LiquidParts" revision="jellybean" />
+      <project name="arco/android_hardware_qcom_display-legacy" path="hardware/qcom/display-legacy" revision="cm-10.1" />
+  </manifest>

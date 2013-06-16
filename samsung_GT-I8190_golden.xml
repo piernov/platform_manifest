@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <manifest>
+      <project name="OliverG96/android_device_samsung_golden" path="device/samsung/golden" revision="jellybean" />
+      <project name="OliverG96/android_kernel_samsung_golden" path="kernel/samsung/golden" revision="jellybean" />
+      <project name="OliverG96/android_vendor_samsung_golden" path="vendor/samsung/golden" revision="jellybean" />
+      <project name="diego-ch/android_device_samsung_u8500-common" path="device/samsung/u8500-common" revision="cm-10.1" />
+  </manifest>
